@@ -1,0 +1,21 @@
+*.ast
+*.o
+.vscode/
+build
+*.ll
+*.bin
+*.log
+*.res
+example.sy
+example
+*.ast
+*.toks
+*.s
+# performance/
+test1
+test
+.VSCodeCounter/
+sysyruntimelibrary
+
+perf.*
+Makefile

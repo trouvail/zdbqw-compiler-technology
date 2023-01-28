@@ -1,0 +1,14 @@
+1. 实现基本的 IR 指令到汇编指令的翻译，完善 genMachineCode() 函数:
+
+(a) 数据访存指令的翻译，主要只需要完成 StoreInstruction; 
+(b) 二元运算指令的翻译，BinaryInstrction;
+(c) 比较指令的翻译;
+(d) 控制流指令的翻译，UncondBrInstr 语句、CondBrInstr 语句、RetInstru 语句等;
+(e) 函数定义及函数调用的翻译。
+
+5.1.2 进阶要求:
+
+1. 实现数组的翻译;
+2. 实现浮点类型的翻译;
+3. 实现 break、continue 语句的翻译;
+4. 实现非叶函数的翻译。
